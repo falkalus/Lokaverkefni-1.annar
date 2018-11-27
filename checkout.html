@@ -1,0 +1,201 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>CHECKOUT</title>
+        <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,700" rel="stylesheet">
+        <link rel="icon" href="img/logo_icon.png">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/checkout.css">
+        <link rel="stylesheet" href="css/navbar.css">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+    </head>
+
+<body id="master">
+            <!-- MAIN NAV  -->
+          <header>
+        <nav>
+            <div class="nav_content">
+                <ul class="first-nav-list close">
+                   <div class="dropdown">
+                      <li class=""><a href="products.html">Products</a></li>
+                      <div class="dropdown-content">
+                        <a href="products.html">Soap</a>
+                        <a href="products.html">Brushes</a>
+                        <a href="products.html">Sponges</a>
+                      </div>
+                    </div>
+
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+                <div class="logo-holder">
+                    <a href="index.html"><img class="logo" src="img/logo_icon.png"></a>
+                </div>
+                <div class="icon-holder close">
+                    <!--
+                    <img class="nav_icon icon_1 close" src="img/signin.png"">
+                    <img class="nav_icon icon_2 close" src="img/cart.png">
+                -->
+                    <a href="signin.html"><div class="nav_icon icon_1 close"></div></a>
+                    <a href="cart.html"> <div class="nav_icon icon_2 close"></div></a>
+                </div>
+
+              
+                <div  onclick="clear2()" class="hamburger-icon" id="open">☰ </div>
+                <div  onclick="clear2()" class="x-icon" id="close">x</div>
+
+            </div>
+        </nav>
+         <div class="divider"></div>
+    </header>
+
+	<div class="container">
+	    <div class="white">
+	     <div class="white_header">
+	      	<img src="img/cart.png" alt="cart icon"><span>&#62;</span>
+	      	<img src="img/signin_green.png" alt="sign in icon"><span>&#62;</span>
+	      	<img src="img/shipping.png" alt="shipping icon"><span>&#62;</span>
+	      	<img src="img/payment.png" alt="payment icon"><span>&#62;</span>
+	      	<img src="img/receipt.png" alt="recipt icon">
+	      	</div>
+	      	<div class="white_content">
+	      		<form action="inner">
+		    <div class="title-white">
+			    <label for="email">Contact information</label>
+			    <span>Already have an account<a href="signin.html">log in</a></span>	
+		     </div>
+				<input type="text" name="email" placeholder="Email"> 
+			<div class="offers">
+				<label class="box_container">keep me up to date on news and exclusive offers
+				<input type="checkbox" name="check" checked="checked">
+				<span class="checkmark"></span>
+				</label>
+			</div>
+				<label for="ship">Shipping address</label> 
+			<div class="form_rows">
+				<input type="text" name="name" placeholder="First Name">
+				<input type="text" name="name" placeholder="Last name">
+			</div>
+				<input type="text" name="ship address" placeholder="Address"> 
+				<input type="text" name="ship apartment" placeholder="Apartment, suite, etc. (optional)">
+				<input type="text" name="ship city" placeholder="City"> 
+			<div class="form_rows">
+				<input type="text" name="postal" placeholder="Country">
+				<input type="text" name="postal" placeholder="Postal Code">
+			</div>
+			<div class="save">
+				<label class="box_container">save this information for next time
+				<input type="checkbox" name="check" checked="checked">
+				<span class="checkmark"></span>
+			</div>
+			<div class="btn_white">
+			<a class="back_btn" href="cart.html">back</a>
+            <a class="pay_btn" href="payment_success.html">continue to shipping</a>
+			</div>		
+	      </div>
+	    </div>
+
+	   <div class="pink">
+		   <div class="pink_content">
+		    	<table>
+		    		<tbody>
+		    			<tr>
+		    				<td>
+		    					<a href="product-info.html">
+		    					<div class="pink_img">
+		    						<div class="cart-center">
+		    						<img src="img/tannb_sv.png" alt="Mr bamboo toothbrush">
+		    						</div>	
+		    					</div>	
+		    					</a>	
+		    				</td>
+		    				<td>
+		    					<div class="pink_text">
+		    						<a href="product-info.html">Bamboo brush</a>
+		    					</div>
+	                    	</td>
+		    				<td>$20</td>
+		    				<td class="brush"></td>
+		    			</tr>
+		    			<tr>
+		    				<td>
+		    					<a href="product-info.html">
+		    					<div class="pink_img">
+		    						<div class="cart-center">
+                                    <img src="img/sponge.png">
+                                    </div>
+                                </div>  
+                            	</a>
+		    				</td>
+		    				<td>
+		    					<div class="pink_text">
+		    						<a href="product-info.html">Sponge</a>
+		    					</div>
+	                    	</td>
+		    				<td>$60</td>
+		    			</tr>
+		    			<tr>
+		    				<td>
+		    					<a href="product-info.html">
+		    					<div class="pink_img">
+		    						<div class="cart-center">
+                                 	<img src="img/tannb_6pack.png">
+                                 	</div>
+                                </div> 
+                            	</a>
+		    				</td>
+		    				<td>
+		    					<div class="pink_text">
+		    						<a href="product-info.html">6 Pack</a>
+		    					</div>
+	                    	</td>
+		    				<td>$40</td>
+		    			</tr>
+		    		</tbody>
+		    	</table>
+		    </div>	
+		    <div class="bottom_table">
+		    	<table>
+		    		<tbody>
+		    			<tr>		
+		    				<td>Your order</td>
+		    				<td>$120</td>
+		    			</tr>
+		    			<tr>
+		    				<td>Shipping</td>
+		    				<td>$10</td>
+		    			</tr>
+		    			<tr>
+		    				<td>Tax</td>
+		    				<td>$12</td>
+		    			</tr>
+		    			<tr class="cart_total">
+			    			<td>Total</td>
+			    			<td>$142</td>			    			
+		    			</tr>
+		    		</tbody>
+		    	</table>
+		    </div>
+	    </div>
+    </div> 		
+
+
+	<footer class="main-footer">
+             <div class="footer-content">
+                <a class="footer-mynd twitter" href="https://www.twitter.com" target="_blank"></a>
+                <a class="footer-mynd facebook" href="https://www.facebook.com" target="_blank"></a>
+                <a class="footer-mynd instagram" href="https://www.instagram.com" target="_blank"></a>
+                <a class="footer-mynd pinterest" href="https://www.pinterest.com" target="_blank"></a>
+            </div>
+     </footer> 
+     	
+</body>
+     <script src="js/main.js"></script>
+
+
+    
+    
+</html>

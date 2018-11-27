@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>No Plastic</title>
+        <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,700" rel="stylesheet">
+        <link rel="icon" href="img/logo_icon.png">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/flex.css">
+        <link rel="stylesheet" href="css/navbar.css">
+        <link rel="stylesheet" href="css/button.css">
+        <link rel="stylesheet" href="css/payment_main.css">
+        <link rel="stylesheet" href="css/product-info.css">
+        <link rel="stylesheet" href="css/cart.css"> 
+         <link rel="stylesheet" type="text/css" href="css/checkout.css">
+        <link rel="stylesheet" type="text/css" href="css/styleguide.css">
+      
+    </head>
+    
+    <body id="master">
+            <!-- Flex utan um flex-nav  -->
+    <header>
+        <nav>
+            <div class="nav_content">
+                <ul class="first-nav-list close"">
+                   <div class="dropdown">
+                      <li class=""><a href="products.html">Products</a></li>
+                      <div class="dropdown-content">
+                        <a href="products.html">Soap</a>
+                        <a href="products.html">Brushes</a>
+                        <a href="products.html">Sponges</a>
+                      </div>
+                    </div>
+
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+                <div class="logo-holder">
+                    <a href="index.html"><img class="logo" src="img/logo_icon.png"></a>
+                </div>
+                <div class="icon-holder close">
+                    <!--
+                    <img class="nav_icon icon_1 close" src="img/signin.png"">
+                    <img class="nav_icon icon_2 close" src="img/cart.png">
+                -->
+                    <a href="signin.html"><div class="nav_icon icon_1 close"></div></a>
+                    <a href="cart.html"> <div class="nav_icon icon_2 close"></div></a>
+                </div>
+
+              
+                <div  onclick="clear2()" class="hamburger-icon" id="open">☰ </div>
+                <div  onclick="clear2()" class="x-icon" id="close">x</div>
+
+            </div>
+        </nav>
+         
+    </header>
+
+    <section id="styleguide-content">
+        <div class="buttons-container">
+            <h1>Buttons</h1>
+            <div class="btn-holder content"><a id="front-button" class="btn" href="products.html">SHOP NOW</a></div>
+
+            <div class="btn-holder content"><a class="btn" href="cart.html">ADD TO CART</a></div>
+
+            <div class="btn-holder-green content"><a class="btn-green" href="blog.html">READ MORE</a></div>
+
+            <div class="btn_white content">
+             <a class="back_btn" href="cart.html">back</a>
+             <a class="pay_btn" href="payment_success.html">continue to shipping</a>
+            </div>   
+
+            <div class="cart_btn_holder">
+                 <a class="cont_shop_btn" href="products.html">Continue Shopping</a>
+                <a class="checkout_btn" href="checkout.html">Checkout</a>
+            </div>   
+
+
+         </div>
+         <div class="icon-container">
+            <h1>Icons & logos</h1>
+             <img class="styleguide-icon" src="img/logo_icon.png">
+             <img class="styleguide-icon" src="img/cart.png">
+             <img class="styleguide-icon" src="img/signin.png">
+             <img class="styleguide-icon" src="img/facebook.png">
+             <img class="styleguide-icon" src="img/instagram.png">
+             <img class="styleguide-icon" src="img/twitter.png">
+             <img class="styleguide-icon" src="img/pinterest.png">
+
+              <h1>Icons with hover</h1>
+             <img class="styleguide-icon" src="img/cart_hover.png">
+             <img class="styleguide-icon" src="img/signin_hover.png">
+             <img class="styleguide-icon" src="img/facebook_hover.png">
+             <img class="styleguide-icon" src="img/instagram_hover.png">
+             <img class="styleguide-icon" src="img/twitter_hover.png">
+             <img class="styleguide-icon" src="img/pinterest_hover.png">
+         </div>
+
+
+    </section>
+             
+    
+
+        <div class="up_button">
+            <a href="#"></a>
+        </div>             
+
+            <footer class="main-footer">
+                <div class="footer-content">
+                    <a class="footer-mynd twitter" href="https://www.twitter.com" target="_blank"></a>
+                    <a class="footer-mynd facebook" href="https://www.facebook.com" target="_blank"></a>
+                    <a class="footer-mynd instagram" href="https://www.instagram.com" target="_blank"></a>
+                    <a class="footer-mynd pinterest" href="https://www.pinterest.com" target="_blank"></a>
+                </div>
+            </footer>
+    </body>
+     <script src="js/main.js"></script>
+</html>
